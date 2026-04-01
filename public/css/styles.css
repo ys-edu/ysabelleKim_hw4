@@ -1,0 +1,33 @@
+nav a { /* edits the links within nav container */
+	padding: 18px;
+	font-size:1.8em;
+	text-decoration:none; /* removes underline from nav titles */
+}
+nav a:hover { /* pseudo class */
+	border: 2px #BE6464;
+	transition: .9s; /* transition effect */
+}
+body {
+	background-color: #222831;
+	text-align: center;
+	font-size: large;
+}
+footer {
+	background-color:rgba(0,0,0,.3);
+}
+.footer_font {
+	text-align: center;
+	font-size: 12px !important;
+}
+h1 {
+	text-align: center;
+	font-size: 50px !important;
+	padding: 20px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 20px;
+	padding: 20px;
+}

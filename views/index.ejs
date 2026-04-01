@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <%- include('partials/head.ejs') %>
+    <body>
+        <%- include('partials/body_h1.ejs') %>
+        <%- include('partials/nav.ejs') %>
+        <h2>About Me!</h2>
+        <main>
+            <figure>
+                <img class="rounded-circle" src="img/ysabelle_kim.jpg" alt="Ysabelle Kim's portrait">
+            </figure>
+            <div>
+                <p>This is Ysabelle's CS Online portfolio website, created during CST336.</p>
+                <p>I plan on creating a separate website for my hobby projects!</p>
+                <hr>
+                <ul class="d-inline-grid text-start">
+                    <li><span class="">Video games: I play too many. My current favorite is Satisfactory!</span></li>
+                    <li><span class="">Art: I do commissions for tabletop RPG characters, monsters, and other things!</span></li>
+                    <li><span class="">Writing: I write tabletop RPGs! I plan on using my computer science experience to create digital content for them.</span>
+                    </li>
+                    <li><span class="">Programming: I have contributed to other tabletop RPG web apps!</span></li>
+                </ul>
+            </div>
+        </main>
+        <hr>
+        <div>
+            Daily Quote: <i><%= quoteText.text %></i><br>
+            <em style="font-size:12px;">These quotes are randomly generated from inspirational-quotes.</em>
+        </div>
+    </body>
+    <%- include('partials/footer.ejs') %>
+</html>
